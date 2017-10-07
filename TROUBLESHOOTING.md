@@ -23,10 +23,10 @@ If you can't find a solution below, please open an [issue](https://github.com/se
 
 [Here](https://github.com/sendgrid/sendgrid-csharp/tree/b27983a8f3d84a9d28972f2720cca0315ad9fe32) is the last working version with v2 support.
 
-Using Nuget:
+Using NuGet:
 
 ```bash
-PM> Install-Package Sendgrid -Version 6.3.4
+PM> Install-Package SendGrid -Version 6.3.4
 ```
 
 Download:
@@ -79,7 +79,6 @@ Please begin at the [README](https://github.com/sendgrid/sendgrid-csharp) and if
 
 If you receive one of the following errors, or something similar:
 
-* ‘Helpers’ does not exist in the namespace ‘SengrGrid’
 * The type or namespace name ‘Mail’ could not be found
 
 it means that you are probably not compiling your application to .NET 4.5.2. Currently, this is the only supported version of .NET by SendGrid.
@@ -99,11 +98,11 @@ The current solution is to download the code directly into your project and chan
 <a name="package-manager"></a>
 ## Using the Package Manager
 
-We upload this library to [Nuget](https://www.nuget.org/packages/SendGrid) whenever we make a release. This allows you to use [Nuget](https://www.nuget.org) for easy installation.
+We upload this library to [NuGet](https://www.nuget.org/packages/SendGrid) whenever we make a release. This allows you to use [NuGet](https://www.nuget.org) for easy installation.
 
 In most cases we recommend you download the latest version of the library, but if you need a different version, please use:
 
-`PM> Install-Package Sendgrid -Version X.X.X`
+`PM> Install-Package SendGrid -Version X.X.X`
 
 <a name="versioning"></a>
 ## Versioning Convention
